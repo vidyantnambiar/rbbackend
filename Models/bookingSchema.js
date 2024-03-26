@@ -9,10 +9,10 @@ const bookingSchema=mongoose.Schema({
         type:String,
         required:true
     },
-    /* userid:{
+     userid:{
         type:String,
         required:true
-    }, */
+    }, 
     fromdate:{
         type:String,
         required:true
@@ -37,7 +37,8 @@ const bookingSchema=mongoose.Schema({
         type:String,
         required:true,
         default:"booked"
-    }
+    },
+    
 },{
     timestamps:true
 })
